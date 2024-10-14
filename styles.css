@@ -188,6 +188,9 @@ main p {
         flex-direction: column;
         text-align: center;
     }
+    .teacher-info div {
+        text-align: center; /* Center text for mobile */
+    }
 }
 
 @media (min-width: 769px) {
