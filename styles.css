@@ -149,9 +149,13 @@ main p {
 /* Teacher Info Section */
 .teacher-info {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.teacher-info div {
+    flex: 1; /* Allows the text to take the remaining space next to the image */
+    text-align: left; /* Keep the text left-aligned */
 }
 
 .teacher-info img {
