@@ -165,6 +165,21 @@ main p {
     object-fit: cover;
 }
 
+footer {
+    background-color: #32CD32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0; /* Adjusted margin for better spacing */
+}
+
+footer a {
+    color: white;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
